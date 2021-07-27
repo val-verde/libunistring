@@ -16,13 +16,12 @@ dnl along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 dnl Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.64])
-AC_INIT
+AC_PREREQ([2.71])
+AC_INIT([libunistring], m4_esyscmd_s([grep VERSION_NUMBER version.sh | cut -d= -f2]))
 AC_CONFIG_SRCDIR([lib/unistring/version.in.h])
 AC_CONFIG_AUX_DIR([build-aux])
-. $srcdir/version.sh
-gl_INIT_PACKAGE([libunistring], [$VERSION_NUMBER])
-AM_INIT_AUTOMAKE([silent-rules dist-xz])
+AM_SILENT_RULES([yes])
+AM_INIT_AUTOMAKE([dist-xz])
 AC_CONFIG_HEADERS([config.h])
 
 dnl Override automake's tar command used for creating distributions.
