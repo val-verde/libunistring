@@ -1,5 +1,10 @@
 2021-12-07  Bruno Haible  <bruno@clisp.org>
 
+	Clarify rationale for gl_INIT_PACKAGE.
+	* m4/init-package-version.m4: Add more comments.
+
+2021-12-07  Bruno Haible  <bruno@clisp.org>
+
 	Fix some license headers.
 	Reported by Dylan Aïssi <daissi@debian.org> at
 	<https://savannah.gnu.org/bugs/?61459>.
