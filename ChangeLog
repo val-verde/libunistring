@@ -1,3 +1,15 @@
+2021-12-07  Bruno Haible  <bruno@clisp.org>
+
+	Fix some license headers.
+	Reported by Dylan Aïssi <daissi@debian.org> at
+	<https://savannah.gnu.org/bugs/?61459>.
+	* lib/version.c: Change license header to LGPLv3+ or GPLv2+.
+	* lib/unistring-notinline.h: Likewise.
+	* lib/unistring/cdefs.h: Likewise.
+	* lib/unistring/inline.h: Likewise.
+	* lib/unistring/version.in.h: Likewise.
+	* lib/unistring/woe32dll.in.h: Likewise.
+
 2021-08-07  Bruno Haible  <bruno@clisp.org>
 
 	Make gl_INIT_PACKAGE work with Automake >= 1.16.4.
