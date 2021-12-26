@@ -846,6 +846,7 @@ The joining group has the following possible values:
 @deftypevrx Constant int UC_JOINING_GROUP_YUDH_HE
 @deftypevrx Constant int UC_JOINING_GROUP_ZAIN
 @deftypevrx Constant int UC_JOINING_GROUP_ZHAIN
+@deftypevrx Constant int UC_JOINING_GROUP_ROHINGYA_YEH
 @end deftypevr
 
 The following functions implement the association between a joining group
