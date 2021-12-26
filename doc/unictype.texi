@@ -863,6 +863,35 @@ The joining group has the following possible values:
 @deftypevrx Constant int UC_JOINING_GROUP_ZAIN
 @deftypevrx Constant int UC_JOINING_GROUP_ZHAIN
 @deftypevrx Constant int UC_JOINING_GROUP_ROHINGYA_YEH
+@deftypevrx Constant int UC_JOINING_GROUP_STRAIGHT_WAW
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_ALEPH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_BETH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_GIMEL
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_DALETH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_WAW
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_ZAYIN
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_HETH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_TETH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_YODH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_KAPH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_LAMEDH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_DHAMEDH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_THAMEDH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_MEM
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_NUN
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_SAMEKH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_AYIN
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_PE
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_SADHE
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_QOPH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_RESH
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_TAW
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_ONE
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_FIVE
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_TEN
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_TWENTY
+@deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_HUNDRED
+
 @end deftypevr
 
 The following functions implement the association between a joining group
