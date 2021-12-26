@@ -1,5 +1,13 @@
 2021-12-26  Bruno Haible  <bruno@clisp.org>
 
+	doc: Update for Unicode 10.0.0.
+	* doc/unictype.texi (Joining group): Document
+	UC_JOINING_GROUP_MALAYALAM_*.
+	(Properties as objects): Document UC_PROPERTY_REGIONAL_INDICATOR.
+	(Properties as functions): Document uc_is_property_regional_indicator.
+
+2021-12-26  Bruno Haible  <bruno@clisp.org>
+
 	doc: Update for Unicode 9.0.0.
 	* doc/unictype.texi (Joining group): Document
 	UC_JOINING_GROUP_AFRICAN_*.

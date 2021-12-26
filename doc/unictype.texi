@@ -894,6 +894,17 @@ The joining group has the following possible values:
 @deftypevrx Constant int UC_JOINING_GROUP_AFRICAN_FEH
 @deftypevrx Constant int UC_JOINING_GROUP_AFRICAN_QAF
 @deftypevrx Constant int UC_JOINING_GROUP_AFRICAN_NOON
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_NGA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_JA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_NYA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_TTA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_NNA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_NNNA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_BHA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_RA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_LLA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_LLLA
+@deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_SSA
 
 @end deftypevr
 
@@ -1065,6 +1076,7 @@ Other miscellaneous properties are:
 @deftypevrx Constant uc_property_t UC_PROPERTY_DIACRITIC
 @deftypevrx Constant uc_property_t UC_PROPERTY_EXTENDER
 @deftypevrx Constant uc_property_t UC_PROPERTY_IGNORABLE_CONTROL
+@deftypevrx Constant uc_property_t UC_PROPERTY_REGIONAL_INDICATOR
 @end deftypevr
 
 The following function looks up a property by its name.
@@ -1214,6 +1226,7 @@ Other miscellaneous properties are:
 @deftypefunx bool uc_is_property_diacritic (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_extender (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_ignorable_control (ucs4_t@tie{}@var{uc})
+@deftypefunx bool uc_is_property_regional_indicator (ucs4_t@tie{}@var{uc})
 @end deftypefun
 
 @node Scripts
