@@ -594,6 +594,22 @@ The bidi class for ``Whitespace'' characters.
 The bidi class for ``Other Neutral'' characters.
 @end deftypevr
 
+@deftypevr Constant int UC_BIDI_LRI
+The bidi class for ``Left-to-Right Isolate'' characters.
+@end deftypevr
+
+@deftypevr Constant int UC_BIDI_RLI
+The bidi class for ``Right-to-Left Isolate'' characters.
+@end deftypevr
+
+@deftypevr Constant int UC_BIDI_FSI
+The bidi class for ``First Strong Isolate'' characters.
+@end deftypevr
+
+@deftypevr Constant int UC_BIDI_PDI
+The bidi class for ``Pop Directional Isolate'' characters.
+@end deftypevr
+
 The following functions implement the association between a bidirectional
 category and its name.
 
