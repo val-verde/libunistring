@@ -1,5 +1,11 @@
 2021-12-26  Bruno Haible  <bruno@clisp.org>
 
+	doc: Update for Unicode 9.0.0.
+	* doc/unictype.texi (Joining group): Document
+	UC_JOINING_GROUP_AFRICAN_*.
+
+2021-12-26  Bruno Haible  <bruno@clisp.org>
+
 	doc: Update for Unicode 7.0.0.
 	* doc/unictype.texi (Joining group): Document
 	UC_JOINING_GROUP_STRAIGHT_WAW, UC_JOINING_GROUP_MANICHAEAN_*.

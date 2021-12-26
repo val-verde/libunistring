@@ -891,6 +891,9 @@ The joining group has the following possible values:
 @deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_TEN
 @deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_TWENTY
 @deftypevrx Constant int UC_JOINING_GROUP_MANICHAEAN_HUNDRED
+@deftypevrx Constant int UC_JOINING_GROUP_AFRICAN_FEH
+@deftypevrx Constant int UC_JOINING_GROUP_AFRICAN_QAF
+@deftypevrx Constant int UC_JOINING_GROUP_AFRICAN_NOON
 
 @end deftypevr
 
