@@ -20,6 +20,12 @@ following meanings:
 This value indicates that @code{@var{s}[@var{i}]} is a line break character.
 @end deftypevr
 
+@deftypevr Constant int UC_BREAK_CR_BEFORE_LF
+This value is a variant of @code{UC_BREAK_MANDATORY}.  It indicates that
+@code{@var{s}[@var{i}]} is a CR character and that @code{@var{s}[@var{i+1}]}
+is a LF character.
+@end deftypevr
+
 @deftypevr Constant int UC_BREAK_POSSIBLE
 This value indicates that a line break may be inserted between
 @code{@var{s}[@var{i}-1]} and @code{@var{s}[@var{i}]}.
@@ -51,8 +57,9 @@ possible.
 @deftypefunx void ulc_possible_linebreaks (const@tie{}char@tie{}*@var{s}, size_t@tie{}@var{n}, const@tie{}char@tie{}*@var{encoding}, char@tie{}*@var{p})
 Determines the line break points in @var{s}, and stores the result at
 @code{@var{p}[0..@var{n}-1]}.  Every @code{@var{p}[@var{i}]} is assigned one of
-the values @code{UC_BREAK_MANDATORY}, @code{UC_BREAK_POSSIBLE},
-@code{UC_BREAK_HYPHENATION}, @code{UC_BREAK_PROHIBITED}.
+the values @code{UC_BREAK_MANDATORY}, @code{UC_BREAK_CR_BEFORE_LF},
+@code{UC_BREAK_POSSIBLE}, @code{UC_BREAK_HYPHENATION},
+@code{UC_BREAK_PROHIBITED}.
 @end deftypefun
 
 The following functions determine where line breaks should be inserted so that
@@ -82,7 +89,8 @@ The given @var{encoding} is used for disambiguating widths in @code{uc_width}.
 
 Returns the column after the end of the string, and stores the result at
 @code{@var{p}[0..@var{n}-1]}.  Every @code{@var{p}[@var{i}]} is assigned one of
-the values @code{UC_BREAK_MANDATORY}, @code{UC_BREAK_POSSIBLE},
-@code{UC_BREAK_HYPHENATION}, @code{UC_BREAK_PROHIBITED}.  Here the value
-@code{UC_BREAK_POSSIBLE} indicates that a line break @emph{should} be inserted.
+the values @code{UC_BREAK_MANDATORY}, @code{UC_BREAK_CR_BEFORE_LF},
+@code{UC_BREAK_POSSIBLE}, @code{UC_BREAK_HYPHENATION},
+@code{UC_BREAK_PROHIBITED}.  Here the value @code{UC_BREAK_POSSIBLE} indicates
+that a line break @emph{should} be inserted.
 @end deftypefun

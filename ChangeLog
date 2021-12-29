@@ -1,3 +1,11 @@
+2021-12-29  Bruno Haible  <bruno@clisp.org>
+
+	doc: Update for new behaviour of line breaking functions.
+	* doc/unilbrk.texi (unilbrk.h): Document UC_BREAK_CR_BEFORE_LF. Mention
+	that this value can occur in the array returned by
+	u*_possible_linebreaks and u*_width_linebreaks.
+	* NEWS: Mention the change.
+
 2021-12-26  Bruno Haible  <bruno@clisp.org>
 
 	doc: Update for Unicode 10.0.0.
