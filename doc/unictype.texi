@@ -905,7 +905,8 @@ The joining group has the following possible values:
 @deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_LLA
 @deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_LLLA
 @deftypevrx Constant int UC_JOINING_GROUP_MALAYALAM_SSA
-
+@deftypevrx Constant int UC_JOINING_GROUP_HANIFI_ROHINGYA_PA
+@deftypevrx Constant int UC_JOINING_GROUP_HANIFI_ROHINGYA_KINNA_YA
 @end deftypevr
 
 The following functions implement the association between a joining group

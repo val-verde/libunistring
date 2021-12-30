@@ -1,5 +1,11 @@
 2021-12-30  Bruno Haible  <bruno@clisp.org>
 
+	doc: Update for Unicode 11.0.0.
+	* doc/unictype.texi (Joining group): Document
+	UC_JOINING_GROUP_HANIFI_ROHINGYA_*.
+
+2021-12-30  Bruno Haible  <bruno@clisp.org>
+
 	doc: Document properties for Emojis.
 	* doc/unictype.texi (Properties as objects): Document UC_PROPERTY_EMOJI,
 	UC_PROPERTY_EMOJI_PRESENTATION, UC_PROPERTY_EMOJI_MODIFIER,
