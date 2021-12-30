@@ -1,3 +1,16 @@
+2021-12-30  Bruno Haible  <bruno@clisp.org>
+
+	doc: Document properties for Emojis.
+	* doc/unictype.texi (Properties as objects): Document UC_PROPERTY_EMOJI,
+	UC_PROPERTY_EMOJI_PRESENTATION, UC_PROPERTY_EMOJI_MODIFIER,
+	UC_PROPERTY_EMOJI_MODIFIER_BASE, UC_PROPERTY_EMOJI_COMPONENT,
+	UC_PROPERTY_EXTENDED_PICTOGRAPHIC.
+	(Properties as functions): Document uc_is_property_emoji,
+	uc_is_property_emoji_presentation, uc_is_property_emoji_modifier,
+	uc_is_property_emoji_modifier_base, uc_is_property_emoji_component,
+	uc_is_property_extended_pictographic.
+	* NEWS: Mention the new properties.
+
 2021-12-29  Bruno Haible  <bruno@clisp.org>
 
 	doc: Update for new behaviour of line breaking functions.

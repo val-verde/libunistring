@@ -6,6 +6,15 @@ New in 0.9.11:
   easier to work with strings that contain CR-LF sequences: In this case,
   in the returned array, it will return UC_BREAK_CR_BEFORE_LF followed by
   UC_BREAK_MANDATORY (instead of twice UC_BREAK_MANDATORY).
+* There are new properties for recognizing pictographic symbols and
+  regional indicators:
+    - UC_PROPERTY_EMOJI                  uc_is_property_emoji
+    - UC_PROPERTY_EMOJI_PRESENTATION     uc_is_property_emoji_presentation
+    - UC_PROPERTY_EMOJI_MODIFIER         uc_is_property_emoji_modifier
+    - UC_PROPERTY_EMOJI_MODIFIER_BASE    uc_is_property_emoji_modifier_base
+    - UC_PROPERTY_EMOJI_COMPONENT        uc_is_property_emoji_component
+    - UC_PROPERTY_EXTENDED_PICTOGRAPHIC  uc_is_property_extended_pictographic
+    - UC_PROPERTY_REGIONAL_INDICATOR     uc_is_property_regional_indicator
 * Fixed multithread-safety bugs on Cygwin, native Windows, and Haiku.
 
 New in 0.9.10:
