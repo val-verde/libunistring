@@ -46,9 +46,8 @@ Note that 'gen-uni-tables' sometimes fails when a large portion of
 Unicode data changes.  In that case, errors are reported as assertion
 failures and you will need to adjust 'lib/gen-uni-tables.c'.
 
-Also note that the files under 'lib/uniwidth' and 'tests/uniwidth' are
-currently _not_ updated automatically.  You need to merge the
-generated *.part file by hand.
+Also note that the files under 'tests/uniwidth' are currently _not_
+updated automatically.  You need to check the test failures by hand.
 
 * Updating the version numbers of modules
 
@@ -72,8 +71,8 @@ to bump the version of affected modules.
 To identify affected modules, you can use the following command:
 
   $ (cd $GNULIB_SRCDIR && git show --oneline --name-only $COMMIT | tail -n+2) \
-    | ./containing | LC_ALL=C sort | uniq \
-    | ./dependent | LC_ALL=C sort | uniq
+    | ./containing | LC_ALL=C sort -u \
+    | ./dependent | LC_ALL=C sort -u
 
 where $COMMIT is a git commit ID, which points to the regeneration,
 and 'containing' and 'dependent' are scripts included here.  Note that
