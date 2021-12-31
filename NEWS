@@ -1,5 +1,6 @@
 New in 0.9.11:
 * The license has changed from "LGPLv3+ or GPLv2" to "LGPLv3+ or GPLv2+".
+* The data tables and algorithms have been updated to Unicode version 14.0.0.
 * The functions u8_uctomb, u16_uctomb, u32_uctomb now support strings larger
   than 2 GiB by taking an 'n' argument of type ptrdiff_t (instead of int).
 * The functions u*_possible_linebreaks and u*_width_linebreaks now make it
