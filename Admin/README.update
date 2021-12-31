@@ -13,13 +13,21 @@ environment variables
 - UCD, which points to the directory containing the Unicode UCD
 
 Before updating, read the Unicode release note carefully and
-understand any changes that might affect Gnulib.  In particular,
-changes in the text segmentation algorithms (provided by unilbrk.h,
-uniwbrk.h, unigbrk.h) often require manual adjustment of source files.
-
-The release notes are typically available at:
+understand any changes that might affect Gnulib.  The release notes are
+typically available at:
 
   https://unicode.org/versions/Unicode<VERSION>/
+
+In particular, changes in the text segmentation algorithms often
+require manual adjustment of source files:
+
+  - For unigbrk/ updates, look at the revision history of UAX #29
+    <https://www.unicode.org/reports/tr29/>, section 3.
+  - For uniwbrk/ updates, look at the revision history of UAX #29
+    <https://www.unicode.org/reports/tr29/>, section 4.
+  - For unilbrk/ updates, look at the revision history of UAX #14
+    <https://www.unicode.org/reports/tr14/>.
+
 
 * Regenerating the Gnulib source code
 

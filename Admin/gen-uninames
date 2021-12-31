@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright (C) 2015 Free Software Foundation, Inc.
+# Copyright (C) 2015-2021 Free Software Foundation, Inc.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -93,19 +93,14 @@ signal=0
 ("$CLISP" --version) >/dev/null 2>/dev/null \
   || { echo "$progname: *** clisp not found; skipping uniname" 1>&2; exit 0; }
 
-sed -e '/^[0-9A-F]*;</d' "$UCD/UnicodeData.txt" > "$tmp/UnicodeDataNames.txt"
-
-sed -e 's/ *$//' -e '/^#/d' -e '/^$/d' < "$UCD/NameAliases.txt" \
-    > "$tmp/NameAliases.txt"
-
 "$CLISP" "$GNULIB_SRCDIR/lib/uniname/gen-uninames.lisp" \
-         "$tmp/UnicodeDataNames.txt" \
+         "$UCD/UnicodeData.txt" \
          "$GNULIB_SRCDIR/lib/uniname/uninames.h" \
-         "$tmp/NameAliases.txt"
+         "$UCD/NameAliases.txt"
 
 # Copy necessary files from UCD
 for dstfile in "$GNULIB_SRCDIR/tests/uniname/UnicodeData.txt" \
-             "$GNULIB_SRCDIR/tests/uniname/NameAliases.txt" ; do
+               "$GNULIB_SRCDIR/tests/uniname/NameAliases.txt" ; do
   srcfile=`expr "$dstfile" : '.*/\(.*\)'`
   if test -f "$UCD/$srcfile"; then
     srcfile="$UCD/$srcfile"
