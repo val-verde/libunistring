@@ -1,4 +1,4 @@
-New in 0.9.11:
+New in 1.0:
 * The license has changed from "LGPLv3+ or GPLv2" to "LGPLv3+ or GPLv2+".
 * The data tables and algorithms have been updated to Unicode version 14.0.0.
 * The functions u8_uctomb, u16_uctomb, u32_uctomb now support strings larger
