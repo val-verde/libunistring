@@ -1,3 +1,8 @@
+2022-01-04  Bruno Haible  <bruno@clisp.org>
+
+	build: Update Windows DLL exports.
+	* woe32dll/unistring-exports.c: Add new UC_PROPERTY_* variables.
+
 2021-12-31  Bruno Haible  <bruno@clisp.org>
 
 	doc: Update for Unicode 14.0.0.
