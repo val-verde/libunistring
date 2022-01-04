@@ -1134,6 +1134,8 @@
 /lib/uniwidth/u8-strwidth.c
 /lib/uniwidth/u8-width.c
 /lib/uniwidth/width.c
+/lib/uniwidth/width0.h
+/lib/uniwidth/width2.h
 /tests/Makefile.gnulib
 /tests/_Noreturn.h
 /tests/accept.c
