@@ -103,7 +103,7 @@
 #if defined __GNUC__ /* GCC compiler, GNU toolchain */
 
  /* IMP(x) is a symbol that contains the address of x.  */
-# if defined _WIN64 || defined _LP64
+# if defined _WIN64 || defined _LP64 || defined __arm__
 #  define IMP(x) __imp_##x
 # else
 #  define IMP(x) _imp__##x
